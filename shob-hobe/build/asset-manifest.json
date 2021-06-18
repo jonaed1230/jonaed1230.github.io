@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ecab749.chunk.css",
+    "main.js": "/static/js/main.3856ac49.chunk.js",
+    "main.js.map": "/static/js/main.3856ac49.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.dbc6ae2e.js",
+    "runtime~main.js.map": "/static/js/runtime~main.dbc6ae2e.js.map",
+    "static/css/2.deb05650.chunk.css": "/static/css/2.deb05650.chunk.css",
+    "static/js/2.4ecf9004.chunk.js": "/static/js/2.4ecf9004.chunk.js",
+    "static/js/2.4ecf9004.chunk.js.map": "/static/js/2.4ecf9004.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.63c2bc98544d8c13b4d651a0c217c057.js": "/precache-manifest.63c2bc98544d8c13b4d651a0c217c057.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.deb05650.chunk.css.map": "/static/css/2.deb05650.chunk.css.map",
+    "static/css/main.7ecab749.chunk.css.map": "/static/css/main.7ecab749.chunk.css.map",
+    "static/media/index.css": "/static/media/Apercu_Regular.7f08dee7.woff",
+    "static/media/logo.svg": "/static/media/logo.a951b0aa.svg",
+    "static/media/sokina.svg": "/static/media/sokina.e364eb0d.svg",
+    "static/media/sokina_smile.svg": "/static/media/sokina_smile.688af46b.svg"
+  }
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vamos Spanish Academy</title>
+    <style>
+      body {
+        background-image: url("./hand.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: 20%;
+        background-position-y: -10%;
+        font-family: "Source Sans Pro", "Source Sans", "Seravek", "Revisal",
+          "Urban Grotesk", "FF Meta", "Polo", "IvyStyle Sans", "Lab Grotesque",
+          "Fakt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      }
+      .personal-attention {
+        margin-top: 300px;
+        margin-left: 11%;
+        position: absolute;
+      }
+      .social-atmosphere {
+        margin-top: 20px;
+        margin-left: 24%;
+        position: absolute;
+      }
+      .home-away {
+        margin-left: 32%;
+        position: absolute;
+      }
+      .great-location {
+        margin-left: 40%;
+        margin-top: 20px;
+        position: absolute;
+      }
+      .best-value {
+        margin-left: 48%;
+        margin-top: 150px;
+        position: absolute;
+      }
+      /* Firefox old*/
+      @-moz-keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      /* IE */
+      @-ms-keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      /* Opera and prob css3 final iteration */
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      img {
+        -moz-animation: blink normal 3s infinite ease-in-out; /* Firefox */
+        -webkit-animation: blink normal 3s infinite ease-in-out; /* Webkit */
+        -ms-animation: blink normal 3s infinite ease-in-out; /* IE */
+        animation: blink normal 3s infinite ease-in-out; /* Opera and prob css3 final iteration */
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        /*perspective: 20px;*/
+      }
+
+      ul li {
+        background: white;
+        list-style: none;
+        border-bottom: 1px solid #d8d8d8;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+        margin: 0;
+        padding: 20px;
+        transition: background 0.2s;
+        display: flex;
+        justify-content: space-between;
+        text-transform: capitalize;
+      }
+
+      ul li:nth-child(even) {
+        transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
+        background: linear-gradient(to bottom, #ffffff 0%, #efefef 100%);
+      }
+
+      ul li:nth-child(odd) {
+        transform: perspective(100px) rotateX(-3deg) translateY(3px);
+        background: linear-gradient(to top, #ffffff 0%, #efefef 100%);
+      }
+      .lists {
+        margin-left: 65%;
+        width: 400px;
+        background: #eee;
+        height: 100%;
+      }
+      .hide {
+        display: none;
+      }
+      @media (max-width: 1400px) {
+        .personal-attention {
+        margin-top: 300px;
+        margin-left: 11%;
+        position: absolute;
+      }
+      .social-atmosphere {
+        margin-top: 20px;
+        margin-left: 24%;
+        position: absolute;
+      }
+      .home-away {
+        margin-left: 33%;
+        position: absolute;
+      }
+      .great-location {
+        margin-left: 43%;
+        margin-top: 20px;
+        position: absolute;
+      }
+      .best-value {
+        margin-left: 51%;
+        margin-top: 150px;
+        position: absolute;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="personal-attention"
+        src="https://1eican1u2cuw7g1kw7btt2xy-wpengine.netdna-ssl.com/wp-content/uploads/personal-attention-vamospanish-85x85.png"
+        alt="personal-attention-vamospanish"
+      />
+
+      <img
+        src="https://1eican1u2cuw7g1kw7btt2xy-wpengine.netdna-ssl.com/wp-content/uploads/social-atmosphere-vamospanish-85x85.png"
+        alt="social-atmosphere-vamospanish"
+        class="social-atmosphere"
+      />
+
+      <img
+        src="https://1eican1u2cuw7g1kw7btt2xy-wpengine.netdna-ssl.com/wp-content/uploads/home-away-from-home-vamospanish-85x85.png"
+        alt="your-home-away-from-home-vamospanish"
+        class="home-away"
+      />
+
+      <img
+        src="https://1eican1u2cuw7g1kw7btt2xy-wpengine.netdna-ssl.com/wp-content/uploads/great-location-vamospanish-85x85.png"
+        alt="great-location-vamospanish"
+        class="great-location"
+      />
+
+      <img
+        src="https://1eican1u2cuw7g1kw7btt2xy-wpengine.netdna-ssl.com/wp-content/uploads/reputable-spanish-school-vamospanish-85x85.png"
+        alt="reputable-spanish-school-vamospanish"
+        class="best-value"
+      />
+      <div class="lists">
+        <h2>WHY CHOOSE VAMOS SPANISH SCHOOL IN BUENOS AIRES?</h2>
+        <div class="personal-attention-list">
+          <ul>
+            <li><h2>Personalized Spanish learning experience with our professional Academic Team</h2></li>
+            <li>We have a dedicated Academic Director oversees and plans every single class to make sure each Spanish lesson is right for your level and progresses in a continuous manner.</li>
+            <li>We create specially designed learning materials for each level and every class.</li>
+            <li>The best way to learn a language is full immersion. All classes are taught entirely in Spanish.</li>
+            <li>Group class size is strictly kept small at no more than 6 students per class.</li>
+          </ul>
+        </div>
+        <div class="social-atmosphere-list hide">
+          <ul>
+            <li><h2>International and Social
+                Atmosphere</h2></li>
+            <li>Every week we receive a diverse mix of students from all walks of life from all over the globe.</li>
+            <li>A welcome orientation on your first day of class while you meet your new schoolmates.</li>
+            <li>Our after-class workshops and social events make it easy to meet new friends.</li>
+          </ul>
+        </div>
+        <div class="home-away-list hide">
+          <ul>
+            <li><h2>Your Home Away from Home</h2></li>
+            <li>Classes are held inside a beautiful French-style building on a tree lined street.
+              </li>
+            <li>We provide weekly updates on what is happening in and around Buenos Aires, to make sure you are well-informed and get the most out of your time in this wonderful city.</li>
+            <li>Our knowledgeable staff are always on hand to help you and to answer your questions.</li>
+            <li>We serve as a great base and point of contact when you are in need while travelling around in Argentina.</li>
+          </ul>
+        </div>
+        <div class="great-location-list hide">
+          <ul>
+            <li><h2>Well-located in the dynamic Palermo neighborhood</h2></li>
+            <li>Just a few minutes walk to Subway Line D</li>
+            <li>More than a dozen bus routes</li>
+            <li>Trendy shopping mall and boutiques</li>
+            <li>Many cafés, restaurants, ice-cream shops, bakeries and lush green parks nearby</li>
+          </ul>
+        </div>
+        <div class="best-value-list hide">
+          <ul>
+            <li><h2>Best Value in the City</h2></li>
+            <li>No registration fee or extra material charges for your Spanish classes</li>
+            <li>We are located in the most popular neighborhood, Palermo</li>
+            <li>Fair prices include Free Spanish language and cultural workshops</li>
+            <li>Complimentary coffee/tea throughout the day to keep you motivated to learn!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script>
+      const personalAttention = document.querySelector('.personal-attention');
+      const socialAtmosphere = document.querySelector('.social-atmosphere');
+      const homeAway = document.querySelector('.home-away');
+      const greatLocation = document.querySelector('.great-location');
+      const bestValue = document.querySelector('.best-value');
+      const personalAttentionList = document.querySelector('.personal-attention-list');
+      const socialAtmosphereList = document.querySelector('.social-atmosphere-list');
+      const homeAwayList = document.querySelector('.home-away-list');
+      const greatLocationList = document.querySelector('.great-location-list');
+      const bestValueList = document.querySelector('.best-value-list');
+
+
+      personalAttention.addEventListener("mouseover", (e) => {
+        personalAttentionList.classList.remove('hide');
+        socialAtmosphereList.classList.add('hide');
+        homeAwayList.classList.add('hide');
+        greatLocationList.classList.add('hide');
+        bestValueList.classList.add('hide');
+      });
+      socialAtmosphere.addEventListener("mouseover", (e) => {
+        personalAttentionList.classList.add('hide');
+        socialAtmosphereList.classList.remove('hide');
+        homeAwayList.classList.add('hide');
+        greatLocationList.classList.add('hide');
+        bestValueList.classList.add('hide');
+      });
+      homeAway.addEventListener("mouseover", (e) => {
+        personalAttentionList.classList.add('hide');
+        socialAtmosphereList.classList.add('hide');
+        homeAwayList.classList.remove('hide');
+        greatLocationList.classList.add('hide');
+        bestValueList.classList.add('hide');
+      });
+      greatLocation.addEventListener("mouseover", (e) => {
+        personalAttentionList.classList.add('hide');
+        socialAtmosphereList.classList.add('hide');
+        homeAwayList.classList.add('hide');
+        greatLocationList.classList.remove('hide');
+        bestValueList.classList.add('hide');
+      });
+      bestValue.addEventListener("mouseover", (e) => {
+        personalAttentionList.classList.add('hide');
+        socialAtmosphereList.classList.add('hide');
+        homeAwayList.classList.add('hide');
+        greatLocationList.classList.add('hide');
+        bestValueList.classList.remove('hide');
+      });
+    </script>
+  </body>
+</html>
